@@ -1,0 +1,13 @@
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.AssemblyInfoInputs.cache
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.AssemblyInfo.cs
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.csproj.CoreCompileInputs.cache
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.exe
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.deps.json
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.runtimeconfig.json
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.runtimeconfig.dev.json
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.dll
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcoreapp3.1\E-Commerce.pdb
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.dll
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.pdb
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.genruntimeconfig.cache
+C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.csprojAssemblyReference.cache
