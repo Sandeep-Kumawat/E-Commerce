@@ -70,6 +70,7 @@ namespace E_Commerce.Entities
             ListOfAllProducts();
             Console.WriteLine("a. Delete By ID");
             Console.WriteLine("b. Delete By Name");
+            Console.WriteLine("c. Manager Menu");
             char ch2 = Convert.ToChar(Console.ReadLine());
             switch (ch2)
             {
@@ -83,6 +84,10 @@ namespace E_Commerce.Entities
                     var sc = Console.ReadLine();
                     DeleteByName(sc);
                     break;
+               case 'c':
+                    ManagerOperation.ManagerMenu();
+                    break;
+                    
             }
         }
         public static void DeleteById(int id)
@@ -117,6 +122,7 @@ namespace E_Commerce.Entities
             Console.WriteLine("a. Search By ID");
             Console.WriteLine("b. Search By Name");
             Console.WriteLine("c. Search By Price");
+            Console.WriteLine("d. Manager Menu");
             char ch3 = Convert.ToChar(Console.ReadLine());
             switch (ch3)
             {
@@ -133,6 +139,9 @@ namespace E_Commerce.Entities
                case 'c':
                     Console.WriteLine("Enter Price of Product to Search");
                     SearchByPrice();
+                    break;
+                case 'd':
+                    ManagerOperation.ManagerMenu();
                     break;
                 default:
                     Console.WriteLine("Invalid Input");
@@ -248,14 +257,65 @@ namespace E_Commerce.Entities
 
         }
         public static void UpdateProduct(int id)
-        {
-            var data = productDetails.Find((i) => i.ProductID == id);
-            if(data == null)
+        { 
+            try
             {
-                Console.WriteLine("Product not Found");
+                var data = productDetails.Find((i) => i.ProductID == id);
+                Console.WriteLine("Select an option to update");
+                Console.WriteLine("a. Update Product Name ");
+                Console.WriteLine("b. Update Product Price");
+                Console.WriteLine("c. Update Product Quantity");
+                Console.WriteLine("d. Manager Menu");
+                char ch = Convert.ToChar(Console.ReadLine());
+                switch (ch)
+                {
+                    case 'a':
+                        Console.WriteLine("Enter Updated Product Name");
+                        var newName = Console.ReadLine();
+                        data.ProductName = newName;
+                        ListOfAllProducts();
+                        ManagerOperation.ManagerMenu();
+                        break;
+                    case 'b':
+                        Console.WriteLine("Enter updated Price");
+                        int price = Convert.ToInt32(Console.ReadLine());
+                        data.Price = price;
+                        ListOfAllProducts();
+                        ManagerOperation.ManagerMenu();
+                        break;
+                    case 'c':
+                        Console.WriteLine("Enter updated Quantity");
+                        int quantity = Convert.ToInt32(Console.ReadLine());
+                        data.Quantity = quantity;
+                        ListOfAllProducts();
+                        ManagerOperation.ManagerMenu();
+                        break;
+                    case 'd':
+                        ManagerOperation.ManagerMenu();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Input");
+                        break;
+                }
+
+                }
+            catch
+            {
+                Console.WriteLine("Product Not Found");
+                ManagerOperation.ManagerMenu();
             }
-            data.Price = 30;
-            ProductManagement.ListOfAllProducts();
+            Console.WriteLine("Do you want to login as a User write yes or no");
+            var input1 = Console.ReadLine();
+            if (input1 == "yes")
+            {
+                Console.WriteLine("Enter Manager Id");
+                int userId = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter Password");
+                var userPass = Console.ReadLine();
+                CustomerOperation.CustomerLogin(userId, userPass);
+
+            }
+
         }
     }
 }

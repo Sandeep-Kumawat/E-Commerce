@@ -30,7 +30,7 @@ namespace E_Commerce
                     int managerId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Enter Password");
                     var managerPass = Console.ReadLine();
-                    CustomerOperation.CustomerLogin(managerId, managerPass);
+                    ManagerOperation.ManagerLogin(managerId, managerPass);
                     break;
                 case 'c':
                     Console.WriteLine("Exit");
@@ -42,7 +42,7 @@ namespace E_Commerce
                     break;
             }
                
-            }
+         }
             
 
         

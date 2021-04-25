@@ -10,4 +10,3 @@ C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\bin\Debug\netcore
 C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.dll
 C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.pdb
 C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.genruntimeconfig.cache
-C:\Users\s s infotech\Sandeep\E-Commerce\E-Commerce\E-Commerce\obj\Debug\netcoreapp3.1\E-Commerce.csprojAssemblyReference.cache
